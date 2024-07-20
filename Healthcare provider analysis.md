@@ -1,57 +1,38 @@
 # Project Scenario: Healthcare Provider Data Analysis
 
 ## Introduction
-I am a junior data analyst working for a healthcare consulting firm. Our company provides data-driven insights to healthcare organizations to improve their service delivery and resource allocation. Recently, my manager, Dr. Sarah Thompson, assigned me the task of analyzing a comprehensive dataset on healthcare providers across various regions in the United States. This dataset includes information on different types of healthcare providers, such as physicians, nurse practitioners, and physician assistants, segmented by region, state, and county.
+I am a junior data analyst employed with a health care consulting company. Our company specialises in the analysis of healthcare organisations’ data and the subsequent enhancement of their service delivery and resource management. Recently, in my regular working, my manager, Dr. Sarah Thompson, provided me with the task of the statistical analysis of a large set of data regarding healthcare providers throughout the different regions in the United States of America. This dataset mainly provides data on various categories of healthcare, including doctors, certified nurse practitioners/health officers, and licensed or certified physician assistants, classified by region, state, and county.
 
 ## Objective
 The primary goal of this project is to analyze the distribution and availability of healthcare providers in different regions and identify potential areas with shortages or surpluses of primary care providers. The insights derived from this analysis will help healthcare organizations and policymakers to better allocate resources, plan for future healthcare needs, and address any disparities in healthcare access.
 
-## Dataset Description
-The dataset includes the following columns:
-
-- **region**: The name of the region.
-- **region_code**: The code corresponding to the region.
-- **period**: The time period for the data.
-- **state_fips**: Federal Information Processing Standard code for states.
-- **county_fips**: Federal Information Processing Standard code for counties.
-- **fips**: Combined state and county FIPS code.
-- **all_providers**: Total number of healthcare providers.
-- **all_primary_care_providers**: Total number of primary care providers.
-- **all_physicians**: Total number of physicians.
-- **all_primary_care_physicians**: Total number of primary care physicians.
-- **all_nurse_practitioners**: Total number of nurse practitioners.
-- **all_primary_care_nurse_practitioners**: Total number of primary care nurse practitioners.
-- **all_physician_assistants**: Total number of physician assistants.
-- **all_primary_care_physician_assistants**: Total number of primary care physician assistants.
-
 ## Analysis Plan
-
 ### Data Cleaning and Preprocessing
 - Check for any missing or inconsistent data and handle appropriately.
-- Ensure that all numeric columns are in the correct format for analysis.
+- Check that to all numerical data columns are of the right type for analysis.
 
 ### Descriptive Statistics
 - Calculate summary statistics for each type of healthcare provider.
-- Visualize the distribution of healthcare providers using histograms and box plots.
+- Visualize the distribution of healthcare providers using histograms.
 
 ### Regional Analysis
 - Compare the number of healthcare providers across different regions.
 - Identify regions with the highest and lowest number of providers.
 
 ### State and County-Level Analysis
-- Drill down into state and county-level data to identify specific areas with provider shortages.
+- The target area can be further narrowed down to the state or even county level to determine those areas with provider deficit.
 
 ### Primary Care Focus
-- Analyze the availability of primary care providers specifically.
-- Determine the ratio of primary care providers to the population in each region.
+- Focus more on the measures that relate to primary care providers in particular.
+- This means, identify the ratio of primary care physicians to the people in each of the regions of the country.
 
 ### Trends Over Time
-- Examine trends in the number of healthcare providers over different periods.
+- Analyse changes in healthcare providers’ count within distinct periods.
 - Identify any significant increases or decreases in provider numbers.
 
 ### Resource Allocation Recommendations
-- Based on the analysis, recommend areas where additional healthcare providers are needed.
-- Suggest strategies for addressing identified disparities in healthcare access.
+- From the calculation, suggest specialty areas where more health care workers are required.
+- Offer recommendations concerning the identified disparities in accesing health care service.
 
 
 ___
@@ -262,7 +243,7 @@ ___
 
 ## Conclusion
 ___
-After completing the analysis, I found that certain rural and underserved urban areas have significant shortages of primary care providers, particularly in the categories of nurse practitioners and physician assistants. Regions such as the Midwest and certain Southern states exhibited lower ratios of primary care providers to population, indicating potential areas for policy intervention and resource reallocation.
+After completing the analysis, I found that certain rural and underserved urban areas have significant shortages of primary care providers particularly in the categories of nurse practitioners and physician assistants. Regions such as the Midwest and certain Southern states exhibited lower ratios of primary care providers to population indicating potential areas for policy intervention and resource reallocation.
 
 These insights will help healthcare organizations and policymakers to develop targeted strategies for recruiting and retaining healthcare providers in underserved areas, ultimately improving access to primary care and overall health outcomes.
 
