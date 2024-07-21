@@ -4,7 +4,7 @@
 I am a junior data analyst employed with a health care consulting company. Our company specialises in the analysis of healthcare organisations’ data and the subsequent enhancement of their service delivery and resource management. Recently, in my regular working, my manager, Dr. Sarah Thompson, provided me with the task of the statistical analysis of a large set of data regarding healthcare providers throughout the different regions in the United States of America. This dataset mainly provides data on various categories of healthcare, including doctors, certified nurse practitioners/health officers, and licensed or certified physician assistants, classified by region, state, and county.
 
 ## Objective
-The primary goal of this project is to analyze the distribution and availability of healthcare providers in different regions and identify potential areas with shortages or surpluses of primary care providers. The insights derived from this analysis will help healthcare organizations and policymakers to better allocate resources, plan for future healthcare needs, and address any disparities in healthcare access.
+This project aims to examine the geographic accessibility of primary care providers and detect regions potentially lack/oversupplying in primary health workforce. The results can be used to improve resource distribution, estimating future healthcare demand and needs [4] or disparity in access to care from a public health perspective.
 
 ## Analysis Plan
 ### Data Cleaning and Preprocessing
@@ -243,8 +243,8 @@ ___
 
 ## Conclusion
 ___
-After completing the analysis, I found that certain rural and underserved urban areas have significant shortages of primary care providers particularly in the categories of nurse practitioners and physician assistants. Regions such as the Midwest and certain Southern states exhibited lower ratios of primary care providers to population indicating potential areas for policy intervention and resource reallocation.
+Following my analysis, I identified that a number of rural and underserved urban areas have acute shortages primary care providers especially nurse practitioners and physician assistants. Lower ratios of primary care providers to population in regions such as the Midwest and certain Southern states underscore possible targets for policy intervention or resource distribution.
 
-These insights will help healthcare organizations and policymakers to develop targeted strategies for recruiting and retaining healthcare providers in underserved areas, ultimately improving access to primary care and overall health outcomes.
+These findings can inform policymakers and healthcare organizations about how to tailor interventions that improve recruitment efforts in underserved regions, resulting in better primary care access and quality.
 
 ___
